@@ -1,0 +1,30 @@
+﻿using UnityEngine;
+using UnityEngine.N3DS;
+
+public class CameraControls : MonoBehaviour {
+
+    public Transform ToFollow;
+    public Transform LookAt;
+
+    public Vector2 CamHandlerInput;
+    public Vector3 Offset;
+    public Vector3 LookAtOffset;
+    float Angle = 0f;
+    Vector3 UpDir;
+    public void Start()
+    {
+        // Here you can add code that needs to be called when script is created, just before the first game update
+        UnityEngine.Application.targetFrameRate = 48;
+    }
+
+    public void FixedUpdate()
+    {
+        CamHandlerInput += (GamePad.CirclePadPro + (Input.touchCount > 0 ? Input.GetTouch(0).deltaPosition.normalized : Vector2.zero)).normalized * Time.deltaTime;
+        CamHandlerInput.y = Mathf.Clamp(CamHandlerInput.y, -2f, 2f);
+        UpDir = Vector3.Lerp(UpDir, Vector3.Angle(Vector3.up, ToFollow.up) > 45f && 1==1 ? ToFollow.up : Vector3.up, 12f * Time.deltaTime);
+        transform.position = ToFollow.position + new Vector3(Offset.z * Mathf.Cos(CamHandlerInput.x), Offset.y + CamHandlerInput.y, Offset.z * Mathf.Sin(CamHandlerInput.x));// * Quaternion.FindBetween(Vector3.up, UpDir);
+
+        transform.rotation = Quaternion.LookRotation(LookAtOffset + LookAt.position - transform.position, Vector3.up);
+        //DebugDraw.DrawCircle(ToFollow.Position + Vector3.up * Offset.Y * Quaternion.FindBetween(Vector3.up, ToFollow.Transform.up), ToFollow.Transform.up, Offset.Z, Color.Red, 0.1f, true);
+    }
+}

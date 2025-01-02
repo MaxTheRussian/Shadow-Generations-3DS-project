@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\UnityProjects\\ShadowGens3DS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|f:\\unityprojects\\shadowgens3ds\\assets\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|solutionrelative:assets\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|f:\\unityprojects\\shadowgens3ds\\assets\\scripts\\cameracontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|f:\\unityprojects\\shadowgens3ds\\assets\\scripts\\camerapansystem\\expertdynamicheart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapansystem\\expertdynamicheart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|f:\\unityprojects\\shadowgens3ds\\assets\\scripts\\camerapansystem\\expertdynamichandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapansystem\\expertdynamichandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|f:\\unityprojects\\shadowgens3ds\\assets\\scripts\\shadowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shadowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|f:\\unityprojects\\shadowgens3ds\\assets\\scripts\\camerapansystem\\pannedcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0031A99-EC8C-0EA6-D888-D786D867B283}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapansystem\\pannedcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartScene.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\StartScene.cs",
+              "RelativeDocumentMoniker": "Assets\\StartScene.cs",
+              "ToolTip": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\StartScene.cs",
+              "RelativeToolTip": "Assets\\StartScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:13:37.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraControls.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraControls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraControls.cs",
+              "ToolTip": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraControls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraControls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:42:28.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpertDynamicHeart.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
+              "ToolTip": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwGcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:41:45.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpertDynamicHandler.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "ToolTip": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:41:22.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShadowController.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\ShadowController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ShadowController.cs",
+              "ToolTip": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\ShadowController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ShadowController.cs",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAuwFYBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:37:15.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PannedCamera.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
+              "ToolTip": "F:\\UnityProjects\\ShadowGens3DS\\Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:36:41.215Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

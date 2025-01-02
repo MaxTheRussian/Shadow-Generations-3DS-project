@@ -1,0 +1,2988 @@
+fileFormatVersion: 2
+guid: 77c5bf14f0232e648861721154025981
+timeCreated: 1735750739
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BrowA_C
+    100002: BrowA_C_end
+    100004: BrowA_L
+    100006: BrowA_L_end
+    100008: BrowA_R
+    100010: BrowA_R_end
+    100012: Calf_L
+    100014: Calf_R
+    100016: chr_shadow_lv1
+    100018: Cos_Weapon_L
+    100020: Cos_Weapon_L_end
+    100022: Cos_Weapon_R
+    100024: Cos_Weapon_R_end
+    100026: Ear_L
+    100028: Ear_L_end
+    100030: Ear_R
+    100032: Ear_R_end
+    100034: Eff_Cmn
+    100036: Eff_Cmn_end
+    100038: Eff_Hand_L
+    100040: Eff_Hand_L_end
+    100042: Eff_Hand_R
+    100044: Eff_Hand_R_end
+    100046: EffectJet1_L
+    100048: EffectJet1_L_end
+    100050: EffectJet1_R
+    100052: EffectJet1_R_end
+    100054: EffectJet2_L
+    100056: EffectJet2_L_end
+    100058: EffectJet2_R
+    100060: EffectJet2_R_end
+    100062: EffectJet3_L
+    100064: EffectJet3_L_end
+    100066: EffectJet3_R
+    100068: EffectJet3_R_end
+    100070: EffectJet4_L
+    100072: EffectJet4_L_end
+    100074: EffectJet4_R
+    100076: EffectJet4_R_end
+    100078: EffectJet5_L
+    100080: EffectJet5_L_end
+    100082: EffectJet5_R
+    100084: EffectJet5_R_end
+    100086: Elbow_L
+    100088: Elbow_L_end
+    100090: Elbow_R
+    100092: Elbow_R_end
+    100094: Eyelid_CD
+    100096: Eyelid_CD_end
+    100098: Eyelid_CT
+    100100: Eyelid_CT_end
+    100102: Eyelid_LD1
+    100104: Eyelid_LD1_end
+    100106: Eyelid_LD2
+    100108: Eyelid_LD2_end
+    100110: Eyelid_LT1
+    100112: Eyelid_LT1_end
+    100114: Eyelid_LT2
+    100116: Eyelid_LT2_end
+    100118: Eyelid_RD1
+    100120: Eyelid_RD1_end
+    100122: Eyelid_RD2
+    100124: Eyelid_RD2_end
+    100126: Eyelid_RT1
+    100128: Eyelid_RT1_end
+    100130: Eyelid_RT2
+    100132: Eyelid_RT2_end
+    100134: EyelidBase_CD
+    100136: EyelidBase_CT
+    100138: EyelidBase_LD1
+    100140: EyelidBase_LD2
+    100142: EyelidBase_LT1
+    100144: EyelidBase_LT2
+    100146: EyelidBase_RD1
+    100148: EyelidBase_RD2
+    100150: EyelidBase_RT1
+    100152: EyelidBase_RT2
+    100154: EyelidOffset_CT
+    100156: EyelidOffset_LT1
+    100158: EyelidOffset_LT2
+    100160: EyelidOffset_RT1
+    100162: EyelidOffset_RT2
+    100164: EyelidRoot
+    100166: foot_free_l
+    100168: foot_free_l_end
+    100170: foot_free_r
+    100172: foot_free_r_end
+    100174: foot_free_root
+    100176: Foot_L
+    100178: Foot_R
+    100180: ForeArm_L
+    100182: ForeArm_R
+    100184: Free01
+    100186: Free01_end
+    100188: Free02
+    100190: Free02_end
+    100192: hand_free_l
+    100194: hand_free_l_end
+    100196: hand_free_r
+    100198: hand_free_r_end
+    100200: hand_free_root
+    100202: Hand_L
+    100204: Hand_R
+    100206: Head
+    100208: HeadFacial
+    100210: HeadTop
+    100212: Hips
+    100214: Index0_L
+    100216: Index0_R
+    100218: Index1_L
+    100220: Index1_R
+    100222: Index2_L
+    100224: Index2_R
+    100226: Index3_L
+    100228: Index3_R
+    100230: Index4_L
+    100232: Index4_L_end
+    100234: Index4_R
+    100236: Index4_R_end
+    100238: Knee_L
+    100240: Knee_L_end
+    100242: Knee_R
+    100244: Knee_R_end
+    100246: mesh
+    100248: Mesh_Body
+    100250: Mesh_Body_end
+    100252: Mesh_Eyelid_vis
+    100254: Mesh_Eyelid_vis_end
+    100256: Mesh_MouthR_vis
+    100258: Mesh_MouthR_vis_end
+    100260: Middle0_L
+    100262: Middle0_R
+    100264: Middle1_L
+    100266: Middle1_R
+    100268: Middle2_L
+    100270: Middle2_R
+    100272: Middle3_L
+    100274: Middle3_R
+    100276: Middle4_L
+    100278: Middle4_L_end
+    100280: Middle4_R
+    100282: Middle4_R_end
+    100284: MouthR_Cheek_L
+    100286: MouthR_Cheek_L_end
+    100288: MouthR_Cheek_R
+    100290: MouthR_Cheek_R_end
+    100292: MouthR_Jaw
+    100294: MouthR_Lip_C
+    100296: MouthR_Lip_L
+    100298: MouthR_Lip_L_end
+    100300: MouthR_Lip_R
+    100302: MouthR_Lip_R_end
+    100304: MouthR_MouthTop
+    100306: MouthR_Nose
+    100308: MouthR_Nose_end
+    100310: MouthR_Position
+    100312: MouthR_Reference
+    100314: MouthR_Teeth_Low
+    100316: MouthR_Teeth_Low1_C
+    100318: MouthR_Teeth_Low1_C_end
+    100320: MouthR_Teeth_Low1_L
+    100322: MouthR_Teeth_Low1_L_end
+    100324: MouthR_Teeth_Low1_R
+    100326: MouthR_Teeth_Low1_R_end
+    100328: MouthR_Teeth_Low_C
+    100330: MouthR_Teeth_Low_L
+    100332: MouthR_Teeth_Low_R
+    100334: MouthR_Teeth_Up
+    100336: MouthR_Teeth_Up1_C
+    100338: MouthR_Teeth_Up1_C_end
+    100340: MouthR_Teeth_Up1_L
+    100342: MouthR_Teeth_Up1_L_end
+    100344: MouthR_Teeth_Up1_R
+    100346: MouthR_Teeth_Up1_R_end
+    100348: MouthR_Teeth_Up_C
+    100350: MouthR_Teeth_Up_L
+    100352: MouthR_Teeth_Up_R
+    100354: MouthR_Tongue
+    100356: MouthR_Tongue_end
+    100358: MouthR_UnderEye_L
+    100360: MouthR_UnderEye_L_end
+    100362: MouthR_UnderEye_R
+    100364: MouthR_UnderEye_R_end
+    100366: Neck
+    100368: Needle1_B_C
+    100370: Needle1_B_C_end
+    100372: Needle1_B_L
+    100374: Needle1_B_L_end
+    100376: Needle1_B_R
+    100378: Needle1_B_R_end
+    100380: Needle1_U_C
+    100382: Needle1_U_C_end
+    100384: Needle1_U_L
+    100386: Needle1_U_L_end
+    100388: Needle1_U_R
+    100390: Needle1_U_R_end
+    100392: Needle_B_C
+    100394: Needle_B_L
+    100396: Needle_B_R
+    100398: Needle_U_C
+    100400: Needle_U_L
+    100402: Needle_U_R
+    100404: Pelvis
+    100406: Pinky0_L
+    100408: Pinky0_R
+    100410: Pinky1_L
+    100412: Pinky1_R
+    100414: Pinky2_L
+    100416: Pinky2_R
+    100418: Pinky3_L
+    100420: Pinky3_R
+    100422: Pinky4_L
+    100424: Pinky4_L_end
+    100426: Pinky4_R
+    100428: Pinky4_R_end
+    100430: Reference
+    100432: Ring0_L
+    100434: Ring0_R
+    100436: Ring1_L
+    100438: Ring1_R
+    100440: Ring2_L
+    100442: Ring2_R
+    100444: Ring3_L
+    100446: Ring3_R
+    100448: Ring4_L
+    100450: Ring4_L_end
+    100452: Ring4_R
+    100454: Ring4_R_end
+    100456: //RootNode
+    100458: Shadow_LOD0
+    100460: Shoulder_L
+    100462: Shoulder_R
+    100464: Socks_L
+    100466: Socks_L_end
+    100468: Socks_R
+    100470: Socks_R_end
+    100472: SocksRing_L
+    100474: SocksRing_L_end
+    100476: SocksRing_R
+    100478: SocksRing_R_end
+    100480: Spine
+    100482: Spine1
+    100484: Tail
+    100486: Tail_end
+    100488: Thigh_L
+    100490: Thigh_R
+    100492: Thumb1_L
+    100494: Thumb1_R
+    100496: Thumb2_L
+    100498: Thumb2_R
+    100500: Thumb3_L
+    100502: Thumb3_R
+    100504: Thumb4_L
+    100506: Thumb4_L_end
+    100508: Thumb4_R
+    100510: Thumb4_R_end
+    100512: Toe_L
+    100514: Toe_L_end
+    100516: Toe_L_end_end
+    100518: Toe_R
+    100520: Toe_R_end
+    100522: Toe_R_end_end
+    100524: UpperArm_L
+    100526: UpperArm_R
+    100528: Wing_L
+    100530: Wing_L_end
+    100532: Wing_R
+    100534: Wing_R_end
+    100536: Wrist_L
+    100538: Wrist_L_end
+    100540: Wrist_R
+    100542: Wrist_R_end
+    100544: WristRing_L
+    100546: WristRing_L_end
+    100548: WristRing_R
+    100550: WristRing_R_end
+    100552: Shadow_LOD1
+    400000: BrowA_C
+    400002: BrowA_C_end
+    400004: BrowA_L
+    400006: BrowA_L_end
+    400008: BrowA_R
+    400010: BrowA_R_end
+    400012: Calf_L
+    400014: Calf_R
+    400016: chr_shadow_lv1
+    400018: Cos_Weapon_L
+    400020: Cos_Weapon_L_end
+    400022: Cos_Weapon_R
+    400024: Cos_Weapon_R_end
+    400026: Ear_L
+    400028: Ear_L_end
+    400030: Ear_R
+    400032: Ear_R_end
+    400034: Eff_Cmn
+    400036: Eff_Cmn_end
+    400038: Eff_Hand_L
+    400040: Eff_Hand_L_end
+    400042: Eff_Hand_R
+    400044: Eff_Hand_R_end
+    400046: EffectJet1_L
+    400048: EffectJet1_L_end
+    400050: EffectJet1_R
+    400052: EffectJet1_R_end
+    400054: EffectJet2_L
+    400056: EffectJet2_L_end
+    400058: EffectJet2_R
+    400060: EffectJet2_R_end
+    400062: EffectJet3_L
+    400064: EffectJet3_L_end
+    400066: EffectJet3_R
+    400068: EffectJet3_R_end
+    400070: EffectJet4_L
+    400072: EffectJet4_L_end
+    400074: EffectJet4_R
+    400076: EffectJet4_R_end
+    400078: EffectJet5_L
+    400080: EffectJet5_L_end
+    400082: EffectJet5_R
+    400084: EffectJet5_R_end
+    400086: Elbow_L
+    400088: Elbow_L_end
+    400090: Elbow_R
+    400092: Elbow_R_end
+    400094: Eyelid_CD
+    400096: Eyelid_CD_end
+    400098: Eyelid_CT
+    400100: Eyelid_CT_end
+    400102: Eyelid_LD1
+    400104: Eyelid_LD1_end
+    400106: Eyelid_LD2
+    400108: Eyelid_LD2_end
+    400110: Eyelid_LT1
+    400112: Eyelid_LT1_end
+    400114: Eyelid_LT2
+    400116: Eyelid_LT2_end
+    400118: Eyelid_RD1
+    400120: Eyelid_RD1_end
+    400122: Eyelid_RD2
+    400124: Eyelid_RD2_end
+    400126: Eyelid_RT1
+    400128: Eyelid_RT1_end
+    400130: Eyelid_RT2
+    400132: Eyelid_RT2_end
+    400134: EyelidBase_CD
+    400136: EyelidBase_CT
+    400138: EyelidBase_LD1
+    400140: EyelidBase_LD2
+    400142: EyelidBase_LT1
+    400144: EyelidBase_LT2
+    400146: EyelidBase_RD1
+    400148: EyelidBase_RD2
+    400150: EyelidBase_RT1
+    400152: EyelidBase_RT2
+    400154: EyelidOffset_CT
+    400156: EyelidOffset_LT1
+    400158: EyelidOffset_LT2
+    400160: EyelidOffset_RT1
+    400162: EyelidOffset_RT2
+    400164: EyelidRoot
+    400166: foot_free_l
+    400168: foot_free_l_end
+    400170: foot_free_r
+    400172: foot_free_r_end
+    400174: foot_free_root
+    400176: Foot_L
+    400178: Foot_R
+    400180: ForeArm_L
+    400182: ForeArm_R
+    400184: Free01
+    400186: Free01_end
+    400188: Free02
+    400190: Free02_end
+    400192: hand_free_l
+    400194: hand_free_l_end
+    400196: hand_free_r
+    400198: hand_free_r_end
+    400200: hand_free_root
+    400202: Hand_L
+    400204: Hand_R
+    400206: Head
+    400208: HeadFacial
+    400210: HeadTop
+    400212: Hips
+    400214: Index0_L
+    400216: Index0_R
+    400218: Index1_L
+    400220: Index1_R
+    400222: Index2_L
+    400224: Index2_R
+    400226: Index3_L
+    400228: Index3_R
+    400230: Index4_L
+    400232: Index4_L_end
+    400234: Index4_R
+    400236: Index4_R_end
+    400238: Knee_L
+    400240: Knee_L_end
+    400242: Knee_R
+    400244: Knee_R_end
+    400246: mesh
+    400248: Mesh_Body
+    400250: Mesh_Body_end
+    400252: Mesh_Eyelid_vis
+    400254: Mesh_Eyelid_vis_end
+    400256: Mesh_MouthR_vis
+    400258: Mesh_MouthR_vis_end
+    400260: Middle0_L
+    400262: Middle0_R
+    400264: Middle1_L
+    400266: Middle1_R
+    400268: Middle2_L
+    400270: Middle2_R
+    400272: Middle3_L
+    400274: Middle3_R
+    400276: Middle4_L
+    400278: Middle4_L_end
+    400280: Middle4_R
+    400282: Middle4_R_end
+    400284: MouthR_Cheek_L
+    400286: MouthR_Cheek_L_end
+    400288: MouthR_Cheek_R
+    400290: MouthR_Cheek_R_end
+    400292: MouthR_Jaw
+    400294: MouthR_Lip_C
+    400296: MouthR_Lip_L
+    400298: MouthR_Lip_L_end
+    400300: MouthR_Lip_R
+    400302: MouthR_Lip_R_end
+    400304: MouthR_MouthTop
+    400306: MouthR_Nose
+    400308: MouthR_Nose_end
+    400310: MouthR_Position
+    400312: MouthR_Reference
+    400314: MouthR_Teeth_Low
+    400316: MouthR_Teeth_Low1_C
+    400318: MouthR_Teeth_Low1_C_end
+    400320: MouthR_Teeth_Low1_L
+    400322: MouthR_Teeth_Low1_L_end
+    400324: MouthR_Teeth_Low1_R
+    400326: MouthR_Teeth_Low1_R_end
+    400328: MouthR_Teeth_Low_C
+    400330: MouthR_Teeth_Low_L
+    400332: MouthR_Teeth_Low_R
+    400334: MouthR_Teeth_Up
+    400336: MouthR_Teeth_Up1_C
+    400338: MouthR_Teeth_Up1_C_end
+    400340: MouthR_Teeth_Up1_L
+    400342: MouthR_Teeth_Up1_L_end
+    400344: MouthR_Teeth_Up1_R
+    400346: MouthR_Teeth_Up1_R_end
+    400348: MouthR_Teeth_Up_C
+    400350: MouthR_Teeth_Up_L
+    400352: MouthR_Teeth_Up_R
+    400354: MouthR_Tongue
+    400356: MouthR_Tongue_end
+    400358: MouthR_UnderEye_L
+    400360: MouthR_UnderEye_L_end
+    400362: MouthR_UnderEye_R
+    400364: MouthR_UnderEye_R_end
+    400366: Neck
+    400368: Needle1_B_C
+    400370: Needle1_B_C_end
+    400372: Needle1_B_L
+    400374: Needle1_B_L_end
+    400376: Needle1_B_R
+    400378: Needle1_B_R_end
+    400380: Needle1_U_C
+    400382: Needle1_U_C_end
+    400384: Needle1_U_L
+    400386: Needle1_U_L_end
+    400388: Needle1_U_R
+    400390: Needle1_U_R_end
+    400392: Needle_B_C
+    400394: Needle_B_L
+    400396: Needle_B_R
+    400398: Needle_U_C
+    400400: Needle_U_L
+    400402: Needle_U_R
+    400404: Pelvis
+    400406: Pinky0_L
+    400408: Pinky0_R
+    400410: Pinky1_L
+    400412: Pinky1_R
+    400414: Pinky2_L
+    400416: Pinky2_R
+    400418: Pinky3_L
+    400420: Pinky3_R
+    400422: Pinky4_L
+    400424: Pinky4_L_end
+    400426: Pinky4_R
+    400428: Pinky4_R_end
+    400430: Reference
+    400432: Ring0_L
+    400434: Ring0_R
+    400436: Ring1_L
+    400438: Ring1_R
+    400440: Ring2_L
+    400442: Ring2_R
+    400444: Ring3_L
+    400446: Ring3_R
+    400448: Ring4_L
+    400450: Ring4_L_end
+    400452: Ring4_R
+    400454: Ring4_R_end
+    400456: //RootNode
+    400458: Shadow_LOD0
+    400460: Shoulder_L
+    400462: Shoulder_R
+    400464: Socks_L
+    400466: Socks_L_end
+    400468: Socks_R
+    400470: Socks_R_end
+    400472: SocksRing_L
+    400474: SocksRing_L_end
+    400476: SocksRing_R
+    400478: SocksRing_R_end
+    400480: Spine
+    400482: Spine1
+    400484: Tail
+    400486: Tail_end
+    400488: Thigh_L
+    400490: Thigh_R
+    400492: Thumb1_L
+    400494: Thumb1_R
+    400496: Thumb2_L
+    400498: Thumb2_R
+    400500: Thumb3_L
+    400502: Thumb3_R
+    400504: Thumb4_L
+    400506: Thumb4_L_end
+    400508: Thumb4_R
+    400510: Thumb4_R_end
+    400512: Toe_L
+    400514: Toe_L_end
+    400516: Toe_L_end_end
+    400518: Toe_R
+    400520: Toe_R_end
+    400522: Toe_R_end_end
+    400524: UpperArm_L
+    400526: UpperArm_R
+    400528: Wing_L
+    400530: Wing_L_end
+    400532: Wing_R
+    400534: Wing_R_end
+    400536: Wrist_L
+    400538: Wrist_L_end
+    400540: Wrist_R
+    400542: Wrist_R_end
+    400544: WristRing_L
+    400546: WristRing_L_end
+    400548: WristRing_R
+    400550: WristRing_R_end
+    400552: Shadow_LOD1
+    4300000: Shadow_LOD0
+    4300002: Shadow_LOD1
+    7400000: chr_shadow_lv1|chr_shadow@idle01_loop
+    7400002: Boost
+    7400004: Run
+    7400006: Skate
+    7400008: chr_shadow_lv1|chr_shadow@dash_loop
+    7400010: chr_shadow_lv1|chr_shadow@boost_loop
+    7400012: chr_shadow_lv1|chr_shadow@run_loop
+    9500000: //RootNode
+    13700000: Shadow_LOD0
+    13700002: Shadow_LOD1
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 1.08
+    animationPositionError: 0.86
+    animationScaleError: 1
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: chr_shadow_lv1|chr_shadow@dash_loop
+      takeName: chr_shadow_lv1|chr_shadow@dash_loop
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.108349554
+        functionName: PlayActionSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.572219
+        functionName: PlayActionSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chr_shadow_lv1
+        weight: 1
+      - path: chr_shadow_lv1/mesh
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body/Mesh_Body_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis/Mesh_Eyelid_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis/Mesh_MouthR_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn/Eff_Cmn_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l/foot_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r/foot_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01/Free01_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02/Free02_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l/hand_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r/hand_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail/Tail_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L/EffectJet4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L/EffectJet5_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L/EffectJet1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L/EffectJet2_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L/EffectJet3_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end/Toe_L_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L/Knee_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L/Socks_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L/SocksRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R/EffectJet4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R/EffectJet5_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R/EffectJet1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R/EffectJet2_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R/EffectJet3_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end/Toe_R_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R/Knee_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R/Socks_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R/SocksRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C/BrowA_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD/Eyelid_CD_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT/Eyelid_CT_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1/Eyelid_LD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2/Eyelid_LD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1/Eyelid_LT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2/Eyelid_LT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1/Eyelid_RD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2/Eyelid_RD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1/Eyelid_RT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2/Eyelid_RT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L/BrowA_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R/BrowA_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L/Ear_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R/Ear_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L/MouthR_Cheek_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R/MouthR_Cheek_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose/MouthR_Nose_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C/MouthR_Teeth_Low1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L/MouthR_Teeth_Low1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R/MouthR_Teeth_Low1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue/MouthR_Tongue_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C/MouthR_Teeth_Up1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L/MouthR_Teeth_Up1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R/MouthR_Teeth_Up1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L/MouthR_Lip_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R/MouthR_Lip_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L/MouthR_UnderEye_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R/MouthR_UnderEye_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C/Needle1_B_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L/Needle1_B_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R/Needle1_B_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C/Needle1_U_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L/Needle1_U_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R/Needle1_U_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L/Cos_Weapon_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L/Eff_Hand_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L/Index4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L/Middle4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L/Pinky4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L/Ring4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L/Thumb4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L/Wrist_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L/WristRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R/Cos_Weapon_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R/Eff_Hand_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R/Index4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R/Middle4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R/Pinky4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R/Ring4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R/Thumb4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R/Wrist_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R/WristRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L/Wing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R/Wing_R_end
+        weight: 1
+      - path: Shadow_LOD0
+        weight: 1
+      - path: Shadow_LOD1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: chr_shadow_lv1|chr_shadow@boost_loop
+      takeName: chr_shadow_lv1|chr_shadow@boost_loop
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chr_shadow_lv1
+        weight: 1
+      - path: chr_shadow_lv1/mesh
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body/Mesh_Body_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis/Mesh_Eyelid_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis/Mesh_MouthR_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn/Eff_Cmn_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l/foot_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r/foot_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01/Free01_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02/Free02_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l/hand_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r/hand_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail/Tail_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L/EffectJet4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L/EffectJet5_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L/EffectJet1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L/EffectJet2_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L/EffectJet3_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end/Toe_L_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L/Knee_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L/Socks_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L/SocksRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R/EffectJet4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R/EffectJet5_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R/EffectJet1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R/EffectJet2_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R/EffectJet3_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end/Toe_R_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R/Knee_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R/Socks_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R/SocksRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C/BrowA_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD/Eyelid_CD_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT/Eyelid_CT_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1/Eyelid_LD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2/Eyelid_LD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1/Eyelid_LT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2/Eyelid_LT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1/Eyelid_RD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2/Eyelid_RD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1/Eyelid_RT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2/Eyelid_RT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L/BrowA_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R/BrowA_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L/Ear_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R/Ear_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L/MouthR_Cheek_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R/MouthR_Cheek_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose/MouthR_Nose_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C/MouthR_Teeth_Low1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L/MouthR_Teeth_Low1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R/MouthR_Teeth_Low1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue/MouthR_Tongue_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C/MouthR_Teeth_Up1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L/MouthR_Teeth_Up1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R/MouthR_Teeth_Up1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L/MouthR_Lip_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R/MouthR_Lip_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L/MouthR_UnderEye_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R/MouthR_UnderEye_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C/Needle1_B_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L/Needle1_B_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R/Needle1_B_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C/Needle1_U_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L/Needle1_U_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R/Needle1_U_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L/Cos_Weapon_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L/Eff_Hand_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L/Index4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L/Middle4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L/Pinky4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L/Ring4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L/Thumb4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L/Wrist_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L/WristRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R/Cos_Weapon_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R/Eff_Hand_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R/Index4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R/Middle4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R/Pinky4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R/Ring4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R/Thumb4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R/Wrist_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R/WristRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L/Wing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R/Wing_R_end
+        weight: 1
+      - path: Shadow_LOD0
+        weight: 1
+      - path: Shadow_LOD1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: chr_shadow_lv1|chr_shadow@idle01_loop
+      takeName: chr_shadow_lv1|chr_shadow@idle01_loop
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chr_shadow_lv1
+        weight: 1
+      - path: chr_shadow_lv1/mesh
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body/Mesh_Body_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis/Mesh_Eyelid_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis/Mesh_MouthR_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn/Eff_Cmn_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l/foot_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r/foot_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01/Free01_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02/Free02_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l/hand_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r/hand_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail/Tail_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L/EffectJet4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L/EffectJet5_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L/EffectJet1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L/EffectJet2_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L/EffectJet3_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end/Toe_L_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L/Knee_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L/Socks_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L/SocksRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R/EffectJet4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R/EffectJet5_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R/EffectJet1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R/EffectJet2_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R/EffectJet3_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end/Toe_R_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R/Knee_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R/Socks_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R/SocksRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C/BrowA_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD/Eyelid_CD_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT/Eyelid_CT_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1/Eyelid_LD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2/Eyelid_LD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1/Eyelid_LT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2/Eyelid_LT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1/Eyelid_RD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2/Eyelid_RD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1/Eyelid_RT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2/Eyelid_RT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L/BrowA_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R/BrowA_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L/Ear_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R/Ear_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L/MouthR_Cheek_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R/MouthR_Cheek_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose/MouthR_Nose_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C/MouthR_Teeth_Low1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L/MouthR_Teeth_Low1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R/MouthR_Teeth_Low1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue/MouthR_Tongue_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C/MouthR_Teeth_Up1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L/MouthR_Teeth_Up1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R/MouthR_Teeth_Up1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L/MouthR_Lip_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R/MouthR_Lip_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L/MouthR_UnderEye_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R/MouthR_UnderEye_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C/Needle1_B_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L/Needle1_B_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R/Needle1_B_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C/Needle1_U_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L/Needle1_U_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R/Needle1_U_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L/Cos_Weapon_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L/Eff_Hand_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L/Index4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L/Middle4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L/Pinky4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L/Ring4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L/Thumb4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L/Wrist_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L/WristRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R/Cos_Weapon_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R/Eff_Hand_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R/Index4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R/Middle4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R/Pinky4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R/Ring4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R/Thumb4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R/Wrist_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R/WristRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L/Wing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R/Wing_R_end
+        weight: 1
+      - path: Shadow_LOD0
+        weight: 1
+      - path: Shadow_LOD1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: chr_shadow_lv1|chr_shadow@run_loop
+      takeName: chr_shadow_lv1|chr_shadow@run_loop
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chr_shadow_lv1
+        weight: 1
+      - path: chr_shadow_lv1/mesh
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Body/Mesh_Body_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_Eyelid_vis/Mesh_Eyelid_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis
+        weight: 1
+      - path: chr_shadow_lv1/mesh/Mesh_MouthR_vis/Mesh_MouthR_vis_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Eff_Cmn/Eff_Cmn_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_l/foot_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/foot_free_root/foot_free_r/foot_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free01/Free01_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Free02/Free02_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_l/hand_free_l_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r
+        weight: 1
+      - path: chr_shadow_lv1/Reference/hand_free_root/hand_free_r/hand_free_r_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Tail/Tail_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet4_L/EffectJet4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/EffectJet5_L/EffectJet5_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet1_L/EffectJet1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet2_L/EffectJet2_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/EffectJet3_L/EffectJet3_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Foot_L/Toe_L/Toe_L_end/Toe_L_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Knee_L/Knee_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/Socks_L/Socks_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_L/Calf_L/SocksRing_L/SocksRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet4_R/EffectJet4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/EffectJet5_R/EffectJet5_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet1_R/EffectJet1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet2_R/EffectJet2_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/EffectJet3_R/EffectJet3_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Foot_R/Toe_R/Toe_R_end/Toe_R_end_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Knee_R/Knee_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/Socks_R/Socks_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Pelvis/Thigh_R/Calf_R/SocksRing_R/SocksRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/BrowA_C/BrowA_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CD/Eyelid_CD/Eyelid_CD_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_CT/EyelidOffset_CT/Eyelid_CT/Eyelid_CT_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD1/Eyelid_LD1/Eyelid_LD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LD2/Eyelid_LD2/Eyelid_LD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT1/EyelidOffset_LT1/Eyelid_LT1/Eyelid_LT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_LT2/EyelidOffset_LT2/Eyelid_LT2/Eyelid_LT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD1/Eyelid_RD1/Eyelid_RD1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RD2/Eyelid_RD2/Eyelid_RD2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT1/EyelidOffset_RT1/Eyelid_RT1/Eyelid_RT1_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/EyelidRoot/EyelidBase_RT2/EyelidOffset_RT2/Eyelid_RT2/Eyelid_RT2_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_L/BrowA_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/BrowA_R/BrowA_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_L/Ear_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/HeadTop/Ear_R/Ear_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_L/MouthR_Cheek_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Cheek_R/MouthR_Cheek_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_MouthTop/MouthR_Nose/MouthR_Nose_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_C/MouthR_Teeth_Low1_C/MouthR_Teeth_Low1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_L/MouthR_Teeth_Low1_L/MouthR_Teeth_Low1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Teeth_Low/MouthR_Teeth_Low_R/MouthR_Teeth_Low1_R/MouthR_Teeth_Low1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Jaw/MouthR_Tongue/MouthR_Tongue_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_C/MouthR_Teeth_Up1_C/MouthR_Teeth_Up1_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_L/MouthR_Teeth_Up1_L/MouthR_Teeth_Up1_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_C/MouthR_Teeth_Up/MouthR_Teeth_Up_R/MouthR_Teeth_Up1_R/MouthR_Teeth_Up1_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_L/MouthR_Lip_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_Position/MouthR_Lip_R/MouthR_Lip_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_L/MouthR_UnderEye_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/HeadFacial/MouthR_Reference/MouthR_UnderEye_R/MouthR_UnderEye_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_C/Needle1_B_C/Needle1_B_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_L/Needle1_B_L/Needle1_B_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_B_R/Needle1_B_R/Needle1_B_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_C/Needle1_U_C/Needle1_U_C_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_L/Needle1_U_L/Needle1_U_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Neck/Head/Needle_U_R/Needle1_U_R/Needle1_U_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Elbow_L/Elbow_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Cos_Weapon_L/Cos_Weapon_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Eff_Hand_L/Eff_Hand_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Index0_L/Index1_L/Index2_L/Index3_L/Index4_L/Index4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Middle0_L/Middle1_L/Middle2_L/Middle3_L/Middle4_L/Middle4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Pinky0_L/Pinky1_L/Pinky2_L/Pinky3_L/Pinky4_L/Pinky4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Ring0_L/Ring1_L/Ring2_L/Ring3_L/Ring4_L/Ring4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Hand_L/Thumb1_L/Thumb2_L/Thumb3_L/Thumb4_L/Thumb4_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/Wrist_L/Wrist_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_L/UpperArm_L/ForeArm_L/WristRing_L/WristRing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Elbow_R/Elbow_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Cos_Weapon_R/Cos_Weapon_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Eff_Hand_R/Eff_Hand_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Index0_R/Index1_R/Index2_R/Index3_R/Index4_R/Index4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Middle0_R/Middle1_R/Middle2_R/Middle3_R/Middle4_R/Middle4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Pinky0_R/Pinky1_R/Pinky2_R/Pinky3_R/Pinky4_R/Pinky4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Ring0_R/Ring1_R/Ring2_R/Ring3_R/Ring4_R/Ring4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Hand_R/Thumb1_R/Thumb2_R/Thumb3_R/Thumb4_R/Thumb4_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/Wrist_R/Wrist_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Shoulder_R/UpperArm_R/ForeArm_R/WristRing_R/WristRing_R_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_L/Wing_L_end
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R
+        weight: 1
+      - path: chr_shadow_lv1/Reference/Hips/Spine/Spine1/Wing_R/Wing_R_end
+        weight: 1
+      - path: Shadow_LOD0
+        weight: 1
+      - path: Shadow_LOD1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
