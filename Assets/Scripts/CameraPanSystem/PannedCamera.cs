@@ -29,6 +29,9 @@ public class PannedCamera : MonoBehaviour {
 			case PanStyles.StaticLookAt:
 				transform.rotation = Quaternion.LookRotation(LookAt.position - transform.position + LookAtOffset, Vector3.up);
 				break;
+			case PanStyles.SimpleFollow:
+				transform.position = Follow.position + FollowOffset;
+				break;
 			default:
 				break;
 		}

@@ -19,10 +19,10 @@ public class CameraControls : MonoBehaviour {
 
     public void FixedUpdate()
     {
-        CamHandlerInput += (GamePad.CirclePadPro + (Input.touchCount > 0 ? Input.GetTouch(0).deltaPosition.normalized : Vector2.zero)).normalized * Time.deltaTime;
+        CamHandlerInput += (GamePad.CirclePadPro + (Input.touchCount > 0 ? Input.GetTouch(0).deltaPosition.normalized : Vector2.zero)).normalized * 7f * Time.deltaTime;
         CamHandlerInput.y = Mathf.Clamp(CamHandlerInput.y, -2f, 2f);
         UpDir = Vector3.Lerp(UpDir, Vector3.Angle(Vector3.up, ToFollow.up) > 45f && 1==1 ? ToFollow.up : Vector3.up, 12f * Time.deltaTime);
-        transform.position = ToFollow.position + new Vector3(Offset.z * Mathf.Cos(CamHandlerInput.x), Offset.y + CamHandlerInput.y, Offset.z * Mathf.Sin(CamHandlerInput.x));// * Quaternion.FindBetween(Vector3.up, UpDir);
+        transform.position = ToFollow.position + Quaternion.FromToRotation(Vector3.up, UpDir) * new Vector3(Offset.z * Mathf.Cos(CamHandlerInput.x), Offset.y + CamHandlerInput.y, Offset.z * Mathf.Sin(CamHandlerInput.x));
 
         transform.rotation = Quaternion.LookRotation(LookAtOffset + LookAt.position - transform.position, Vector3.up);
         //DebugDraw.DrawCircle(ToFollow.Position + Vector3.up * Offset.Y * Quaternion.FindBetween(Vector3.up, ToFollow.Transform.up), ToFollow.Transform.up, Offset.Z, Color.Red, 0.1f, true);

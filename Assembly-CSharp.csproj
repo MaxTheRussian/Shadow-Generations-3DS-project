@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B0031A99-EC8C-0EA6-D888-D786D867B283}</ProjectGuid>
+    <ProjectGuid>{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,9 +52,13 @@
      <Compile Include="Assets\Scripts\CameraPanSystem\PannedCamera.cs" />
      <Compile Include="Assets\Scripts\FPSCounter.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GoalRing.cs" />
+     <Compile Include="Assets\Scripts\InGameVoices.cs" />
      <Compile Include="Assets\Scripts\PlaySound.cs" />
      <Compile Include="Assets\Scripts\RingSpinAnimation.cs" />
+     <Compile Include="Assets\Scripts\SectionActivator.cs" />
      <Compile Include="Assets\Scripts\ShadowController.cs" />
+     <Compile Include="Assets\Scripts\SonicInteractables.cs" />
      <Compile Include="Assets\StartScene.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/ttt/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -13,17 +13,30 @@ public class GameManager : MonoBehaviour {
 	public float SecondsPassed;
 
 	
-	void Start () {
-			
+	public void Start () 
+	{
+		Transform ringsCollection = GameObject.Find("Rings").transform;
+		for (int i = 0; i < ringsCollection.childCount; i++)
+			ringsCollection.GetChild(i).gameObject.SetActive(true);
+		SecondsPassed = 0;
+		StartCoroutine(UpdateTime());
 	}
 	
-	void Update()
+	IEnumerator UpdateTime()
 	{
-		SecondsPassed += Time.deltaTime;
-        SecondTick.Rotate(0, 0, -360 * Time.deltaTime);
-		HourTick.Rotate(0, 0, -6 * Time.deltaTime);
-		Timer.text = SecondsPassed.ToString();
+		while (true)
+		{
+			yield return new WaitForEndOfFrame();
+			SecondsPassed += Time.deltaTime;
+			SecondTick.Rotate(0, 0, -360 * Time.deltaTime);
+			HourTick.Rotate(0, 0, -6 * Time.deltaTime);
+			Timer.text = SecondsPassed.ToString();
+		}
+	}
 
+	public void StopTimer()
+	{
+		StopCoroutine(UpdateTime());
 	}
 
 	// Update is called once per frame
@@ -31,4 +44,9 @@ public class GameManager : MonoBehaviour {
 	{
 		BoostSlider.value = val;	
 	}
+
+    public void UpdateRings(uint val)
+    {
+        Rings.text = val.ToString();
+    }
 }

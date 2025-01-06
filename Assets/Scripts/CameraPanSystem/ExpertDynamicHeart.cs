@@ -2,9 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
+
 namespace ExpertDynamic
 {
-
+    [DefaultExecutionOrder(999)]
     public class ExpertDynamicHeart : MonoBehaviour
     {
         public ExpertDynamicHandler activeCamera;
