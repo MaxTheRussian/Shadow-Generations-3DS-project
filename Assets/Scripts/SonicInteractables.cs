@@ -19,7 +19,6 @@ public class SonicInteractables : MonoBehaviour {
     public float Power;
     public bool KeepVelocity;
     public bool isSpecial;
-    public float detail = 120;
 
 
 # if UNITY_EDITOR
@@ -31,28 +30,21 @@ public class SonicInteractables : MonoBehaviour {
                 Debug.DrawLine(transform.position, transform.position + transform.forward * Power * LockTime, Color.red);
                 break;
             case Type.Spring:
-                
-                Vector3[] HoverPoints = GetPoints();
-                //Debug.Log(HoverPoints[0] + " " +HoverPoints[60]);
-                for (int i = 0; i < HoverPoints.Length - 1; i++)
-                    Debug.DrawLine(HoverPoints[i], HoverPoints[i+1], Color.green);
+                Vector3 speed = transform.up * Power;
+                Vector3[] HoverPoints = new Vector3[45];
+                HoverPoints[0] = transform.position;
+                for (int i = 1; i < HoverPoints.Length; i++)
+                {
+                    float time = (float)i / (float)HoverPoints.Length;
+                    HoverPoints[i] = transform.position + speed * time + Vector3.down * .25f * time * time / 0.02f;
+                    Debug.DrawLine(HoverPoints[i - 1], HoverPoints[i], Color.green, 0f, true);
+                }
+
                 break;
         }
     }
 
-    Vector3[] GetPoints()
-    {
-        Vector3[] points = new Vector3[(int)(LockTime / detail)];
-        Vector3 InitialSpeed = transform.transform.up * Power;
-        float time = 0;
-        for (int i = 0; i < points.Length; i++)
-        {
-            points[i] = new Vector3(InitialSpeed.x * time, InitialSpeed.y * time - 0.375f * time * time, InitialSpeed.z * time);
-            points[i] += transform.position;
-            time += .02f;
-        }
-        return points;
-    }
+
 
 #endif
     }

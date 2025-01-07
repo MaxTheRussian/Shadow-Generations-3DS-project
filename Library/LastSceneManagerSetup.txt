@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Ark.unity
+- path: Assets/Scenes/Tokyo.unity
   isLoaded: 1
   isActive: 1

@@ -71,6 +71,7 @@ public class ShadowController : MonoBehaviour {
     public AudioClip[] gameplayVoices;
 	public AudioClip[] SonicInterClips;
     Vector3 iniPos;
+    Collider GravityPlatform;
 	public enum State
 	{
 		RegularShadow,
@@ -216,8 +217,8 @@ public class ShadowController : MonoBehaviour {
 
 	void GetInititals()
 	{
-        UnityEngine.Debug.DrawRay(transform.position + transform.up * .2f, -GroundNormal * .5f, Color.red, 0f, true);
-		if (Physics.Raycast(transform.position + transform.up * .2f, -GroundNormal, out groundRayHit, Mathf.Infinity, groundMask, QueryTriggerInteraction.Ignore) && groundRayHit.distance < .5f)
+        UnityEngine.Debug.DrawRay(transform.position, -GroundNormal * .5f, Color.red, 0f, true);
+		if (Physics.Raycast(transform.position, -GroundNormal, out groundRayHit, Mathf.Infinity, groundMask, QueryTriggerInteraction.Ignore) && groundRayHit.distance < .5f)
 		{
 			ground = Vector3.Dot(VertVel, -Gravity) <= 0f && (HorzVel.magnitude > 0 || Vector3.Angle(GroundNormal, -Gravity.normalized) < 75f) && (ground || Vector3.Angle(GroundNormal, groundRayHit.normal) <= 45f);
 
@@ -246,7 +247,7 @@ public class ShadowController : MonoBehaviour {
         if (!ground)
             return;
 
-        transform.position = groundRayHit.point;
+        transform.position = groundRayHit.point + GroundNormal * .4f;
         VertVel = Vector3.zero;
         jump = false;
         AirBoosted = false;
@@ -271,7 +272,8 @@ public class ShadowController : MonoBehaviour {
             return;
 
         Vector3 normal = jump ? jumpNomral : GroundNormal;
-		MoveDirection = Vector3.ProjectOnPlane((Quaternion.FromToRotation(-Gravity, normal) * (ViewCam.forward * move.y + ViewCam.right * move.x).normalized).normalized, normal).normalized;
+        MoveDirection = Vector3.ProjectOnPlane((Quaternion.FromToRotation(-Gravity, normal) * ((ViewCam.forward * move.y + ViewCam.right * move.x).normalized) * 3f).normalized, normal).normalized;
+        //MoveDirection = Quaternion.FromToRotation(-Gravity.normalized, GroundNormal) * Quaternion.Euler(0, ViewCam.eulerAngles.y, 0) * new Vector3(move.x, 0, move.y).normalized;
         boosting = boostPressed && BoostGauge > 0f;
 
 
@@ -306,7 +308,6 @@ public class ShadowController : MonoBehaviour {
                 {
                     boostPressed = false;
                     CurrentAirBoostTime = 0;
-
                 }
             }
             else
@@ -465,8 +466,9 @@ public class ShadowController : MonoBehaviour {
                     break;
                 case 4:
                     Gravity = -collider.transform.up * 0.5f;
+                    GravityPlatform = collider;
                     GroundNormal = collider.transform.up;
-                    transform.up = GroundNormal;
+                    VertVel = Vector3.Project(VertVel, GroundNormal);
                     ground = true;
                     break;
             }
@@ -491,8 +493,11 @@ public class ShadowController : MonoBehaviour {
         if (collider.CompareTag("CameraPanOut"))
             collider.transform.GetChild(0).gameObject.SetActive(false);
         else if (collider.CompareTag("SonicInter"))
-            if (!Physics.Raycast(transform.position, Gravity, out groundRayHit, 1f, groundMask, QueryTriggerInteraction.Collide) || groundRayHit.collider.tag != "PlayerInteractable")
+            if (collider == GravityPlatform)
+            {
                 Gravity = Vector3.down * 0.5f;
+                GravityPlatform = null;
+            }
     }
 
     private void BallActivate(bool isTrue)

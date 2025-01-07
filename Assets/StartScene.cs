@@ -28,5 +28,7 @@ public class StartScene : MonoBehaviour {
             LoadLevel(2);
         else if (GamePad.GetButtonTrigger(N3dsButton.B))
             LoadLevel(1);
+        else if (GamePad.GetButtonTrigger(N3dsButton.L) && GamePad.GetButtonHold(N3dsButton.X))
+            LoadLevel(3);
     }
 }

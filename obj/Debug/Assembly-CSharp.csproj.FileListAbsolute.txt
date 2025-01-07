@@ -30,3 +30,7 @@ F:\UnityProjects\ShadowGens3DS\obj\Debug\Assembly-CSharp.csproj.CoreCompileInput
 F:\UnityProjects\ShadowGens3DS\obj\Debug\Assembly.44154EF1.Up2Date
 F:\UnityProjects\ShadowGens3DS\obj\Debug\Assembly-CSharp.dll
 F:\UnityProjects\ShadowGens3DS\obj\Debug\Assembly-CSharp.pdb
+F:\UnityProjects\Shadow-Generations-3DS-project\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+F:\UnityProjects\Shadow-Generations-3DS-project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+F:\UnityProjects\Shadow-Generations-3DS-project\obj\Debug\Assembly-CSharp.dll
+F:\UnityProjects\Shadow-Generations-3DS-project\obj\Debug\Assembly-CSharp.pdb

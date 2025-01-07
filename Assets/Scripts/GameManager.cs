@@ -16,10 +16,11 @@ public class GameManager : MonoBehaviour {
 	public void Start () 
 	{
 		Transform ringsCollection = GameObject.Find("Rings").transform;
-		for (int i = 0; i < ringsCollection.childCount; i++)
+        SecondsPassed = 0;
+        StartCoroutine(UpdateTime());
+        for (int i = 0; i < ringsCollection.childCount; i++)
 			ringsCollection.GetChild(i).gameObject.SetActive(true);
-		SecondsPassed = 0;
-		StartCoroutine(UpdateTime());
+
 	}
 	
 	IEnumerator UpdateTime()
