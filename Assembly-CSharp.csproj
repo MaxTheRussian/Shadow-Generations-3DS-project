@@ -46,15 +46,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HomingTargetFinder.cs" />
      <Compile Include="Assets\Scripts\CameraControls.cs" />
      <Compile Include="Assets\Scripts\CameraPanSystem\ExpertDynamicHandler.cs" />
      <Compile Include="Assets\Scripts\CameraPanSystem\ExpertDynamicHeart.cs" />
      <Compile Include="Assets\Scripts\CameraPanSystem\PannedCamera.cs" />
      <Compile Include="Assets\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\FootstepCollection.cs" />
+     <Compile Include="Assets\Scripts\FootstepCollectionCarrier.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GoalRing.cs" />
      <Compile Include="Assets\Scripts\InGameVoices.cs" />
      <Compile Include="Assets\Scripts\PlaySound.cs" />
+     <Compile Include="Assets\Scripts\Rail.cs" />
+     <Compile Include="Assets\Scripts\RailEditor.cs" />
      <Compile Include="Assets\Scripts\RingSpinAnimation.cs" />
      <Compile Include="Assets\Scripts\SectionActivator.cs" />
      <Compile Include="Assets\Scripts\ShadowController.cs" />

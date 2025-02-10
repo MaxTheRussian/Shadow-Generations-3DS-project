@@ -3,59 +3,40 @@
   "WorkspaceRootPath": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\sonicinteractables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sonicinteractables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\shadowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|f:\\unityprojects\\shadow-generations-3ds-project\\assets\\scripts\\shadowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shadowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|f:\\unityprojects\\shadow-generations-3ds-project\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\startscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\camerapansystem\\pannedcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapansystem\\pannedcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxim\\OneDrive\\Documents\\Flax Projects\\Mojib Ribbon The Exterior Judgement\\Source\\Game\\SonicInteractables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\camerapansystem\\expertdynamicheart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapansystem\\expertdynamicheart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\cameracontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\ringspinanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ringspinanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\camerapansystem\\expertdynamichandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerapansystem\\expertdynamichandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\InGameVoices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\InGameVoices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\sonicinteractables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sonicinteractables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\UdsExample\\UdsExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\UdsExample\\UdsExample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\raileditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\raileditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Materials\\Skies\\SkyboxExample\\GuiSkyTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Materials\\Skies\\SkyboxExample\\GuiSkyTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\GoalRing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\GoalRing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\SectionActivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\SectionActivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\assets\\homingtargetfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:assets\\homingtargetfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\FootstepCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCEDF6A-DC59-ABBB-A505-EF46FC67DE8B}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\FootstepCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,176 +46,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SectionActivator.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\SectionActivator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SectionActivator.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\SectionActivator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SectionActivator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T10:41:35.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RingSpinAnimation.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\RingSpinAnimation.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RingSpinAnimation.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\RingSpinAnimation.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RingSpinAnimation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T16:58:43.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GoalRing.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\GoalRing.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GoalRing.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\GoalRing.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GoalRing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T15:49:57.584Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ExpertDynamicHandler.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:30:09.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraControls.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraControls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraControls.cs",
+              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraControls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraControls.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T17:59:47.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T12:55:38.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T19:22:08.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InGameVoices.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\InGameVoices.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InGameVoices.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\InGameVoices.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InGameVoices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "FootstepCollection.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\FootstepCollection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FootstepCollection.cs",
+              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\FootstepCollection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FootstepCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T11:54:15.041Z"
+              "WhenOpened": "2025-01-13T19:54:54.779Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SonicInteractables.cs",
-              "DocumentMoniker": "C:\\Users\\maxim\\OneDrive\\Documents\\Flax Projects\\Mojib Ribbon The Exterior Judgement\\Source\\Game\\SonicInteractables.cs",
-              "ToolTip": "C:\\Users\\maxim\\OneDrive\\Documents\\Flax Projects\\Mojib Ribbon The Exterior Judgement\\Source\\Game\\SonicInteractables.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGwAAAA9AAAAAAAAAA==",
+              "Title": "PlaySound.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\PlaySound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlaySound.cs",
+              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\PlaySound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlaySound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:57:11.326Z"
+              "WhenOpened": "2025-01-13T19:50:50.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomingTargetFinder.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\HomingTargetFinder.cs",
+              "RelativeDocumentMoniker": "Assets\\HomingTargetFinder.cs",
+              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\HomingTargetFinder.cs",
+              "RelativeToolTip": "Assets\\HomingTargetFinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:23:34.412Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PannedCamera.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraPanSystem\\PannedCamera.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAKAAAAAAAAAA==",
+              "Title": "RailEditor.cs",
+              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\RailEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RailEditor.cs",
+              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\RailEditor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RailEditor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T15:11:15.095Z"
+              "WhenOpened": "2025-01-10T17:58:20.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SonicInteractables.cs",
               "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\SonicInteractables.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SonicInteractables.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\SonicInteractables.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\SonicInteractables.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCYAAABRAAAAAAAAAA==",
+              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\SonicInteractables.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SonicInteractables.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T13:20:05.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CameraControls.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraControls.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraControls.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraControls.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraControls.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T13:06:58.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ShadowController.cs",
               "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\ShadowController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShadowController.cs",
               "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\ShadowController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ShadowController.cs",
-              "ViewState": "AgIAAKwBAAAAAAAAAADwv+EBAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAIwJgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T12:22:55.957Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExpertDynamicHeart.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraPanSystem\\ExpertDynamicHeart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T18:59:19.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StartScene.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\StartScene.cs",
-              "RelativeDocumentMoniker": "Assets\\StartScene.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\StartScene.cs",
-              "RelativeToolTip": "Assets\\StartScene.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T20:14:13.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UdsExample.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\UdsExample\\UdsExample.cs",
-              "RelativeDocumentMoniker": "Assets\\UdsExample\\UdsExample.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\UdsExample\\UdsExample.cs",
-              "RelativeToolTip": "Assets\\UdsExample\\UdsExample.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T20:07:26.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GuiSkyTest.cs",
-              "DocumentMoniker": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Materials\\Skies\\SkyboxExample\\GuiSkyTest.cs",
-              "RelativeDocumentMoniker": "Assets\\Materials\\Skies\\SkyboxExample\\GuiSkyTest.cs",
-              "ToolTip": "F:\\UnityProjects\\Shadow-Generations-3DS-project\\Assets\\Materials\\Skies\\SkyboxExample\\GuiSkyTest.cs",
-              "RelativeToolTip": "Assets\\Materials\\Skies\\SkyboxExample\\GuiSkyTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T19:59:59.571Z"
             }
           ]
         }

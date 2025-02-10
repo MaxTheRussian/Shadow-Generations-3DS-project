@@ -15,14 +15,33 @@ public class GameManager : MonoBehaviour {
 	
 	public void Start () 
 	{
-		Transform ringsCollection = GameObject.Find("Rings").transform;
+
         SecondsPassed = 0;
+		StopAllCoroutines();
+        StartCoroutine(ReloadLevel());
         StartCoroutine(UpdateTime());
-        for (int i = 0; i < ringsCollection.childCount; i++)
-			ringsCollection.GetChild(i).gameObject.SetActive(true);
+
 
 	}
 	
+	IEnumerator ReloadLevel()
+	{
+		WaitForEndOfFrame wair = new WaitForEndOfFrame();
+        Transform ringsCollection = GameObject.Find("Rings").transform;
+        Transform bombsCollection = GameObject.Find("Bombs").transform;
+		for (int i = 0; i < ringsCollection.childCount; i++)
+		{
+			ringsCollection.GetChild(i).gameObject.SetActive(true);
+			yield return wair;
+		}
+        for (int i = 0; i < bombsCollection.childCount; i++)
+        {
+            bombsCollection.GetChild(i).GetChild(0).gameObject.SetActive(true);
+            bombsCollection.GetChild(i).GetChild(1).gameObject.SetActive(false);
+            yield return wair;
+        }
+    }
+
 	IEnumerator UpdateTime()
 	{
 		while (true)

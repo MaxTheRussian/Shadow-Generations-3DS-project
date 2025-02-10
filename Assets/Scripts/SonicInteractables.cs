@@ -12,7 +12,8 @@ public class SonicInteractables : MonoBehaviour {
         DashRing,
         BoostCapsule_VibOnly,
         GravityPlatform,
-
+        AutoRunSection,
+        jumpPanel
     }
 
     public float LockTime;
@@ -21,7 +22,9 @@ public class SonicInteractables : MonoBehaviour {
     public bool isSpecial;
 
 
-# if UNITY_EDITOR
+#if UNITY_EDITOR
+    public int PointsAmount = 90;
+
     public void OnDrawGizmos()
     {
         switch (ObjectType)
@@ -30,21 +33,29 @@ public class SonicInteractables : MonoBehaviour {
                 Debug.DrawLine(transform.position, transform.position + transform.forward * Power * LockTime, Color.red);
                 break;
             case Type.Spring:
-                Vector3 speed = transform.up * Power;
-                Vector3[] HoverPoints = new Vector3[45];
-                HoverPoints[0] = transform.position;
-                for (int i = 1; i < HoverPoints.Length; i++)
-                {
-                    float time = (float)i / (float)HoverPoints.Length;
-                    HoverPoints[i] = transform.position + speed * time + Vector3.down * .25f * time * time / 0.02f;
-                    Debug.DrawLine(HoverPoints[i - 1], HoverPoints[i], Color.green, 0f, true);
-                }
-
+                DrawParabola(transform.up);
                 break;
+            case Type.jumpPanel:
+                DrawParabola(-transform.forward);
+                break;
+
         }
     }
 
-
+    private void DrawParabola(Vector3 Direction)
+    {
+        Vector3 speed = Direction * Power;
+        Vector3 prevPoint = transform.position;
+        Vector3 nextPoint = transform.position;
+        float time = 0f;
+        for (int i = 1; i < PointsAmount; i++)
+        {
+            time += 0.02f;
+            nextPoint = transform.position + speed * time + Vector3.down * .25f * time * time / 0.02f;
+            Debug.DrawLine(prevPoint, nextPoint, time < LockTime ? Color.green : Color.red, 0f, true);
+            prevPoint = nextPoint;
+        }
+    }
 
 #endif
     }

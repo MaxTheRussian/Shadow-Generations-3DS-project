@@ -14,7 +14,7 @@ public class CameraControls : MonoBehaviour {
     public void Start()
     {
         // Here you can add code that needs to be called when script is created, just before the first game update
-        UnityEngine.Application.targetFrameRate = 48;
+        UnityEngine.Application.targetFrameRate = 60;
     }
 
     public void FixedUpdate()
