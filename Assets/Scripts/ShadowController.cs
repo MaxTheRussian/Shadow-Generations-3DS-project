@@ -19,6 +19,7 @@ public class ShadowController : MonoBehaviour {
 	[SerializeField] private Vector2 move;
     [SerializeField] private bool jumpPressed;
     [SerializeField] private bool stompPressed;
+    [SerializeField] private bool stompPressedthisFrame;
     [SerializeField] private bool boostPressed;
     [SerializeField] private bool spearPressed;
     [SerializeField] private bool boostPressedthisFrame;
@@ -97,6 +98,7 @@ public class ShadowController : MonoBehaviour {
         HomingAttack,
         ChaosSnap,
         Slide,
+        Crouch,
         Brake,
         Stomp,
         Hurt,
@@ -122,7 +124,6 @@ public class ShadowController : MonoBehaviour {
 		GatherInput();
         UseChaosSpear();
         ActivateChaosControl();
-
 		UpdateAnimations();
         LaunchHoming();
         if (GamePad.GetButtonTrigger(N3dsButton.Start))
@@ -159,7 +160,7 @@ public class ShadowController : MonoBehaviour {
         move = (GamePad.CirclePad + new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized).normalized;
 
         Vector3 normal = jump ? jumpNomral : GroundNormal;
-        MoveDirection = Vector3.ProjectOnPlane(GetDir(Vector3.right, ViewCam.right, move.x) + GetDir(Vector3.forward, ViewCam.forward, move.y), normal).normalized;
+        MoveDirection = Vector3.ProjectOnPlane(GetDir(Vector3.right, Vector3.ProjectOnPlane(ViewCam.right, normal).normalized, move.x) + GetDir(Vector3.forward, ViewCam.forward, move.y), normal).normalized;
 
         //MoveDirection = Vector3.ProjectOnPlane(move.x * RotateVector(ViewCam.right) + move.y * RotateVector(ViewCam.forward), GroundNormal).normalized;
 
@@ -169,6 +170,7 @@ public class ShadowController : MonoBehaviour {
 			jumpPressed = false;
 
 		stompPressed = GamePad.GetButtonHold(N3dsButton.A) || Input.GetKey(KeyCode.LeftControl);
+		stompPressedthisFrame = GamePad.GetButtonTrigger(N3dsButton.A) || stompPressedthisFrame || Input.GetKeyDown(KeyCode.LeftControl);
 		spearPressed = (GamePad.GetButtonRelease(N3dsButton.X) || Input.GetMouseButtonUp(1)) && canSpear;
 
         if (!GamePad.IsCirclePadProConnected())
@@ -233,6 +235,43 @@ public class ShadowController : MonoBehaviour {
         }
     }
 
+    void StartCrouchSlide()
+    {
+        if (!stompPressedthisFrame)
+            return;
+
+        stompPressedthisFrame = false;
+
+        if (!ground)
+        {
+            action = Action.Stomp;
+            if (Vector3.Dot(VertVel, -Gravity) >= 0f)
+                VertVel = Vector3.zero;
+            BallActivate(false);
+            HorzVel = Vector3.zero;
+        }
+        else
+        {
+            if (HorzVel.magnitude < 5f)
+            {
+                action = Action.Crouch;
+            }
+            else if (HorzVel.magnitude >= 5f)
+            {
+                HorzVel = HorzVel.normalized * Mathf.Clamp(HorzVel.magnitude, 15f, 30f);
+                action = Action.Slide;
+            }
+        }
+    }
+
+    void StopCrouchSlide()
+    {
+        if (!stompPressed || action == Action.Slide && HorzVel.magnitude < 1f)
+        {
+            action = Action.None;
+        }
+    }
+
     IEnumerator HomingAttack()
     {
         float timeout = 0;
@@ -259,6 +298,8 @@ public class ShadowController : MonoBehaviour {
         animator.SetFloat("Direction", Mathf.Clamp(Mathf.MoveTowards(animator.GetFloat("Direction"), -Mathf.Sign(Vector3.Cross(MoveDirection, HorzVel.normalized).y) * (1f - Vector3.Dot(MoveDirection, HorzVel.normalized)), Time.deltaTime), -0.1f, .1f));
         animator.SetBool("ground", ground);
         animator.SetBool("stomp", action == Action.Stomp);
+        animator.SetBool("crouch", action == Action.Crouch);
+        animator.SetBool("slide", action == Action.Slide);
         animator.SetBool("brake", action == Action.Brake);
         animator.SetBool("Rail", playStyle == PlayState.Rail);
         animator.SetBool("airBoost", action == Action.AirBoost);
@@ -368,6 +409,7 @@ public class ShadowController : MonoBehaviour {
         }
     }
 
+
     IEnumerator ChaosSpearCooldown()
     {
         yield return new WaitForSecondsRealtime(.25f);
@@ -379,7 +421,7 @@ public class ShadowController : MonoBehaviour {
         if (!ground)
             return;
 
-        transform.position = groundRayHit.point + GroundNormal * .4f;
+        transform.position = groundRayHit.point + GroundNormal * 0.4f;
         VertVel = Vector3.zero;
         jump = false;
         CurrentAirBoostTime = AirBoostTime;
@@ -389,12 +431,14 @@ public class ShadowController : MonoBehaviour {
             action = Action.None;
 		timesJumped = 0;
 		BallActivate(false);
-        if (action == Action.Slide && Vector3.Angle(-Gravity, groundRayHit.normal) < 5f)
+
+        if (action == Action.Slide && Vector3.Angle(-Gravity, groundRayHit.normal) < 15f)
         {
-            HorzVel = Vector3.MoveTowards(HorzVel, Vector3.zero, 6);
-            if (HorzVel.magnitude < 3f)
+            HorzVel = Vector3.MoveTowards(HorzVel, Vector3.zero, .4f);
+            if (HorzVel.magnitude < 5f)
             {
-                action = Action.None;
+                HorzVel = Vector3.zero;
+                action = stompPressed ? Action.Crouch : Action.None;
             }
         }
     }
@@ -406,7 +450,6 @@ public class ShadowController : MonoBehaviour {
 
         
         //MoveDirection = Vector3.ProjectOnPlane((Quaternion.FromToRotation(-Gravity, normal) * ((ViewCam.forward * move.y + ViewCam.right * move.x).normalized) * 3f).normalized, normal).normalized;
-        
 
         if (boostPressed && MoveDirection.sqrMagnitude == 0)
             MoveDirection = transform.forward;
@@ -414,10 +457,22 @@ public class ShadowController : MonoBehaviour {
         if (ground || HorzVel.magnitude < 10)
             HorzVel += MoveDirection * acceleration;
         StartBoosting();
+        StartCrouchSlide();
+
+
         switch (action) 
         {
+            case Action.Crouch:
+                if (MoveDirection != Vector3.zero)
+                {
+                    HorzVel = MoveDirection * 15;
+                    action = Action.Slide;
+                }
+                StopCrouchSlide(); 
+                break;
             case Action.Slide:
-                HorzVel = Vector3.ClampMagnitude(HorzVel, 20f);
+                HorzVel = Vector3.ClampMagnitude(HorzVel, 30f);
+                StopCrouchSlide();
                 break;
             case Action.Boost:
                 HorzVel = Vector3.MoveTowards(HorzVel, HorzVel.normalized * BoostSpeed, 1.5f);
@@ -516,13 +571,8 @@ public class ShadowController : MonoBehaviour {
         if (VertVel.magnitude < 100)
             VertVel += Gravity;
 
-        if (stompPressed && action != Action.Stomp)
+        if (action == Action.Stomp)
         {
-            if (Vector3.Dot(VertVel, -Gravity) >= 0f)
-                VertVel = Vector3.zero;
-            action = Action.Stomp;
-            BallActivate(false);
-            HorzVel = Vector3.zero;
             VertVel += Gravity * 14f;
         }
 
@@ -581,6 +631,7 @@ public class ShadowController : MonoBehaviour {
                 ShadowsMouth.PlayOneShot(SonicInterClips[(int)sonInter.ObjectType]);
             switch ((int)sonInter.ObjectType)
             {
+
                 case 0:
                     transform.position = collider.transform.position;
                     HorzVel = collider.transform.forward * sonInter.Power;
@@ -602,8 +653,20 @@ public class ShadowController : MonoBehaviour {
                     VertVel = collider.transform.up * sonInter.Power;
                     break;
                 case 3:
-                    ChaosMeter = 1;
-                    Destroy(collider.gameObject);
+                    switch (collider.transform.GetChild(0).name)
+                    {
+                        case "TenRings":
+                            ringCount += 10;
+                            break;
+                        case "TwentyRings":
+                            ringCount += 20;
+                            break;
+                        default:
+                            ChaosMeter = 1;
+                            break;
+                    }
+                    gameManager.UpdateRings(ringCount);
+                    collider.gameObject.SetActive(false);
                     break;
                 case 4:
                     Gravity = -collider.transform.up * 0.5f;
@@ -622,7 +685,12 @@ public class ShadowController : MonoBehaviour {
                     }
                     break;
                 case 6:
-
+                    keepGravity = true;
+                    transform.position = collider.transform.position;
+                    LockTimer = sonInter.LockTime;
+                    HorzVel = -collider.transform.forward * sonInter.Power;
+                    VertVel = Vector3.zero;
+                    action = Action.None;
                     break;
             }
             ApplyVelocity();
@@ -656,34 +724,37 @@ public class ShadowController : MonoBehaviour {
                     break;
             }
 
-            if (ringCount == 0)
-            {
-                CommitDie();
-                return;
-            }
-            else
-            {
-                if (ringCount >= 60)
-                    ringCount -= 60;
-                else ringCount = 0;
-            }
-
-            ShadowsMouth.PlayOneShot(gameplayVoices[1]);
-               
-
-            gameManager.UpdateRings(ringCount);
-
-            if (playStyle == PlayState.RegularShadow)
-            {
-
-                
-                transform.position += -Gravity.normalized * .5f;
-                rigidbody.velocity = (-transform.forward - Gravity) * 9f;
-                MoveDirection = transform.forward;
-            }
-
-            animator.SetTrigger("Hurt");
+            ProcessHit();
         }
+    }
+
+    private void ProcessHit()
+    {
+        if (ringCount == 0)
+        {
+            CommitDie();
+            return;
+        }
+        else
+        {
+            if (ringCount >= 60)
+                ringCount -= 60;
+            else ringCount = 0;
+        }
+
+        ShadowsMouth.PlayOneShot(gameplayVoices[1]);
+        gameManager.UpdateRings(ringCount);
+
+        if (playStyle == PlayState.RegularShadow)
+        {
+
+
+            transform.position += -Gravity.normalized * .5f;
+            rigidbody.velocity = (-transform.forward - Gravity) * 9f;
+            MoveDirection = transform.forward;
+        }
+
+        animator.SetTrigger("Hurt");
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -696,6 +767,10 @@ public class ShadowController : MonoBehaviour {
             rail = collision.collider.GetComponent<Rail>();
             RailSnap();
             rigidbody.velocity = Vector3.zero;
+        }
+        else if (collision.collider.CompareTag("Enemy") && !ballForm.activeInHierarchy)
+        {
+            ProcessHit();
         }
     }
 

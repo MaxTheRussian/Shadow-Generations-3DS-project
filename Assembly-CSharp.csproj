@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\HomingTargetFinder.cs" />
+     <Compile Include="Assets\Scripts\AutorunPath.cs" />
      <Compile Include="Assets\Scripts\CameraControls.cs" />
      <Compile Include="Assets\Scripts\CameraPanSystem\ExpertDynamicHandler.cs" />
      <Compile Include="Assets\Scripts\CameraPanSystem\ExpertDynamicHeart.cs" />
@@ -56,15 +56,17 @@
      <Compile Include="Assets\Scripts\FootstepCollectionCarrier.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GoalRing.cs" />
+     <Compile Include="Assets\Scripts\HomingTargetFinder.cs" />
      <Compile Include="Assets\Scripts\InGameVoices.cs" />
      <Compile Include="Assets\Scripts\PlaySound.cs" />
      <Compile Include="Assets\Scripts\Rail.cs" />
      <Compile Include="Assets\Scripts\RailEditor.cs" />
      <Compile Include="Assets\Scripts\RingSpinAnimation.cs" />
+     <Compile Include="Assets\Scripts\Rotate.cs" />
      <Compile Include="Assets\Scripts\SectionActivator.cs" />
      <Compile Include="Assets\Scripts\ShadowController.cs" />
      <Compile Include="Assets\Scripts\SonicInteractables.cs" />
-     <Compile Include="Assets\StartScene.cs" />
+     <Compile Include="Assets\Scripts\StartScene.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/ttt/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

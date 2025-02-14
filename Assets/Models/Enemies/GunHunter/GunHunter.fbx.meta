@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: eb6e00eef36c9bb459eea58ce3af95dd
+timeCreated: 1739391229
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Booster_L
+    100002: Booster_R
+    100004: Calf_L
+    100006: Calf_R
+    100008: Camera
+    100010: Eff_Booster_L
+    100012: Eff_Booster_L_end
+    100014: Eff_Booster_R
+    100016: Eff_Booster_R_end
+    100018: Eff_Cmn
+    100020: Eff_Cmn_end
+    100022: Eff_Muzzle
+    100024: Eff_Muzzle_end
+    100026: Eff_Scensor1
+    100028: Eff_Scensor1_end
+    100030: Elbow_L
+    100032: Elbow_R
+    100034: enm_gunhunter.001
+    100036: enm_gunhunter_LOD0
+    100038: enm_gunhunter_LOD1
+    100040: Foot1_L
+    100042: Foot1_R
+    100044: foot_free_l
+    100046: foot_free_l_end
+    100048: foot_free_r
+    100050: foot_free_r_end
+    100052: foot_free_root
+    100054: Foot_L
+    100056: Foot_R
+    100058: ForeArm_L
+    100060: ForeArm_R
+    100062: Free01
+    100064: Free01_end
+    100066: Free02
+    100068: Free02_end
+    100070: //RootNode
+    100072: hand_free_l
+    100074: hand_free_l_end
+    100076: hand_free_r
+    100078: hand_free_r_end
+    100080: hand_free_root
+    100082: Hand_L
+    100084: Head
+    100086: Hips
+    100088: Index1_L
+    100090: Index2_L
+    100092: Index2_L_end
+    100094: Knee_L
+    100096: Knee_R
+    100098: mesh
+    100100: Mesh_Body
+    100102: Mesh_Body_end
+    100104: Middle1_L
+    100106: Middle2_L
+    100108: Middle2_L_end
+    100110: Muzzle
+    100112: Reference
+    100114: Spine
+    100116: Spine1
+    100118: Spine2
+    100120: Thigh_L
+    100122: Thigh_R
+    100124: Thumb1_L
+    100126: Thumb2_L
+    100128: Thumb2_L_end
+    100130: Toe_L
+    100132: Toe_L_end
+    100134: Toe_R
+    100136: Toe_R_end
+    100138: UpperArm_L
+    100140: UpperArm_R
+    400000: Booster_L
+    400002: Booster_R
+    400004: Calf_L
+    400006: Calf_R
+    400008: Camera
+    400010: Eff_Booster_L
+    400012: Eff_Booster_L_end
+    400014: Eff_Booster_R
+    400016: Eff_Booster_R_end
+    400018: Eff_Cmn
+    400020: Eff_Cmn_end
+    400022: Eff_Muzzle
+    400024: Eff_Muzzle_end
+    400026: Eff_Scensor1
+    400028: Eff_Scensor1_end
+    400030: Elbow_L
+    400032: Elbow_R
+    400034: enm_gunhunter.001
+    400036: enm_gunhunter_LOD0
+    400038: enm_gunhunter_LOD1
+    400040: Foot1_L
+    400042: Foot1_R
+    400044: foot_free_l
+    400046: foot_free_l_end
+    400048: foot_free_r
+    400050: foot_free_r_end
+    400052: foot_free_root
+    400054: Foot_L
+    400056: Foot_R
+    400058: ForeArm_L
+    400060: ForeArm_R
+    400062: Free01
+    400064: Free01_end
+    400066: Free02
+    400068: Free02_end
+    400070: //RootNode
+    400072: hand_free_l
+    400074: hand_free_l_end
+    400076: hand_free_r
+    400078: hand_free_r_end
+    400080: hand_free_root
+    400082: Hand_L
+    400084: Head
+    400086: Hips
+    400088: Index1_L
+    400090: Index2_L
+    400092: Index2_L_end
+    400094: Knee_L
+    400096: Knee_R
+    400098: mesh
+    400100: Mesh_Body
+    400102: Mesh_Body_end
+    400104: Middle1_L
+    400106: Middle2_L
+    400108: Middle2_L_end
+    400110: Muzzle
+    400112: Reference
+    400114: Spine
+    400116: Spine1
+    400118: Spine2
+    400120: Thigh_L
+    400122: Thigh_R
+    400124: Thumb1_L
+    400126: Thumb2_L
+    400128: Thumb2_L_end
+    400130: Toe_L
+    400132: Toe_L_end
+    400134: Toe_R
+    400136: Toe_R_end
+    400138: UpperArm_L
+    400140: UpperArm_R
+    4300000: enm_gunhunter_LOD0
+    4300002: enm_gunhunter_LOD1
+    9500000: //RootNode
+    13700000: enm_gunhunter_LOD0
+    13700002: enm_gunhunter_LOD1
+    20500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

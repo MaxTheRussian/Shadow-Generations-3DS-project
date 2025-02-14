@@ -12,7 +12,7 @@
           <Name>\Data\level0</Name>
           <Name>\Data\level1</Name>
           <Name>\Data\level2</Name>
-          <Name>\Data\level2.resS</Name>
+          <Name>\Data\level3</Name>
           <Name>\Data\sharedassets0.assets</Name>
           <Name>\Data\sharedassets0.assets.resS</Name>
           <Name>\Data\sharedassets0.resource</Name>
@@ -22,6 +22,9 @@
           <Name>\Data\sharedassets2.assets</Name>
           <Name>\Data\sharedassets2.assets.resS</Name>
           <Name>\Data\sharedassets2.resource</Name>
+          <Name>\Data\sharedassets3.assets</Name>
+          <Name>\Data\sharedassets3.assets.resS</Name>
+          <Name>\Data\sharedassets3.resource</Name>
           <Name>\Data\Icons\Icon.icn</Name>
           <Name>\Data\Managed\Metadata\global-metadata.dat</Name>
           <Name>\Data\Managed\Resources\mscorlib.dll-resources.dat</Name>
@@ -31,7 +34,7 @@
       </RomFsInfo>
       <CodeInfo>
         <Compressed>false</Compressed>
-        <OriginalSize>22 851 584 byte</OriginalSize>
+        <OriginalSize>22 867 968 byte</OriginalSize>
       </CodeInfo>
     </ContentsInfo>
   </Contents>
