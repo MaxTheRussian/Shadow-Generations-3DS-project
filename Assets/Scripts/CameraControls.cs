@@ -19,9 +19,9 @@ public class CameraControls : MonoBehaviour {
 
     public void FixedUpdate()
     {
-        CamHandlerInput += (GamePad.CirclePadPro + (Input.touchCount > 0 ? Input.GetTouch(0).deltaPosition.normalized : Vector2.zero)).normalized * 7f * Time.deltaTime;
+        CamHandlerInput += (GamePad.CirclePadPro + new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y")) + (Input.touchCount > 0 ? Input.GetTouch(0).deltaPosition.normalized : Vector2.zero)).normalized * 7f * Time.deltaTime;
         CamHandlerInput.y = Mathf.Clamp(CamHandlerInput.y, -2f, 2f);
-        UpDir = Vector3.Lerp(UpDir, Vector3.Angle(Vector3.up, ToFollow.up) > 45f && 1==1 ? ToFollow.up : Vector3.up, 12f * Time.deltaTime);
+        UpDir = Vector3.up;
         transform.position = ToFollow.position + Quaternion.FromToRotation(Vector3.up, UpDir) * new Vector3(Offset.z * Mathf.Cos(CamHandlerInput.x), Offset.y + CamHandlerInput.y, Offset.z * Mathf.Sin(CamHandlerInput.x));
 
         transform.rotation = Quaternion.LookRotation(LookAtOffset + LookAt.position - transform.position, Vector3.up);

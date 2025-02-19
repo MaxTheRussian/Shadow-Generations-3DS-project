@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\NPC.cs" />
+     <Compile Include="Assets\Scripts\AutorunEditor.cs" />
      <Compile Include="Assets\Scripts\AutorunPath.cs" />
      <Compile Include="Assets\Scripts\CameraControls.cs" />
      <Compile Include="Assets\Scripts\CameraPanSystem\ExpertDynamicHandler.cs" />
@@ -67,6 +69,7 @@
      <Compile Include="Assets\Scripts\ShadowController.cs" />
      <Compile Include="Assets\Scripts\SonicInteractables.cs" />
      <Compile Include="Assets\Scripts\StartScene.cs" />
+     <Compile Include="Assets\pathedCamera.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/ttt/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

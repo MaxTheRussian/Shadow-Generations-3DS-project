@@ -13,7 +13,8 @@ public class SonicInteractables : MonoBehaviour {
         BoostCapsule_VibOnly,
         GravityPlatform,
         AutoRunSection,
-        jumpPanel
+        jumpPanel,
+        UpReel,
     }
 
     public float LockTime;
@@ -34,6 +35,9 @@ public class SonicInteractables : MonoBehaviour {
                 break;
             case Type.Spring:
                 DrawParabola(transform.up);
+                break;
+            case Type.DashRing:
+                DrawParabola(transform.forward);
                 break;
             case Type.jumpPanel:
                 DrawParabola(-transform.forward);

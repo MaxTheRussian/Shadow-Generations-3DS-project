@@ -67,6 +67,7 @@ public class ShadowController : MonoBehaviour {
     [SerializeField] PlayState BeforeConstrained;
 
     [Header("Game Stuff")]
+    [SerializeField] NPC npc;
     public uint ringCount;
     public Transform HomingTarget;
     public AudioClip[] gameplayVoices;
@@ -85,7 +86,7 @@ public class ShadowController : MonoBehaviour {
 		Surf,
 		SkatingMechanic,
         InterConstrained,
-        LockedInPlace,
+        Speaking,
         Rail,
         Autorun
 	}
@@ -105,6 +106,7 @@ public class ShadowController : MonoBehaviour {
     }
 
 	public void ChangePlayStle(PlayState state) { playStyle = state; }
+    public void StopTalking() { playStyle = PlayState.RegularShadow; npc.OnInteract.RemoveListener(StopTalking); }
 
 	void Start() 
 	{
@@ -135,7 +137,7 @@ public class ShadowController : MonoBehaviour {
     void CommitDie()
     {
         transform.position = iniPos;
-        if (playStyle != PlayState.LockedInPlace)
+        if (playStyle != PlayState.Speaking)
             ShadowsMouth.PlayOneShot(gameplayVoices[3]);
         ChangePlayStle(PlayState.RegularShadow);
         BoostGauge = 100f;
@@ -180,7 +182,7 @@ public class ShadowController : MonoBehaviour {
             else if (GamePad.GetButtonRelease(N3dsButton.Y) || Input.GetKeyUp(KeyCode.LeftShift))
                 boostPressed = false;
             QuickStepFlag = GamePad.GetButtonHold(N3dsButton.R);
-			homingPressed = GamePad.GetButtonTrigger(N3dsButton.B);
+			homingPressed = GamePad.GetButtonTrigger(N3dsButton.B) || Input.GetMouseButtonDown(0);
 			boostPressedthisFrame = GamePad.GetButtonTrigger(N3dsButton.Y) || boostPressedthisFrame || Input.GetKeyDown(KeyCode.LeftShift);
 			ChaosControlPressed = GamePad.GetButtonTrigger(N3dsButton.L) || Input.GetKeyDown(KeyCode.Tab);
         }
@@ -213,10 +215,11 @@ public class ShadowController : MonoBehaviour {
 
     void LaunchHoming()
     {
-        if (HomingTarget != null && !ground && action != Action.HomingAttack)
+        if (HomingTarget != null && !ground && action != Action.HomingAttack && homingPressed)
         {
             UnityEngine.Debug.Log("Hominged something");
-            StartCoroutine(HomingAttack());
+            action = Action.HomingAttack;
+            BallActivate(true);
         }
     }
 
@@ -272,16 +275,6 @@ public class ShadowController : MonoBehaviour {
         }
     }
 
-    IEnumerator HomingAttack()
-    {
-        float timeout = 0;
-        while (Vector3.Distance(transform.position, HomingTarget.transform.position) < 1 && timeout < 2f)
-        {
-            yield return new WaitForFixedUpdate();
-            timeout += Time.fixedDeltaTime;
-        }
-    }
-
     void ActivateChaosControl()
     {
 		if (!ChaosControlPressed || ChaosMeter != 1)
@@ -292,7 +285,9 @@ public class ShadowController : MonoBehaviour {
     void UpdateAnimations()
 	{
         TelegraphShadow.position = groundRayHit.point + GroundNormal * .03f;
-        TelegraphShadow.up = GroundNormal;
+        TelegraphShadow.up = Quaternion.Euler(90f, 0f, 0f) * GroundNormal;
+
+
 
         animator.SetFloat("Speed", HorzVel.magnitude + (action == Action.Boost ? 50f : 0));
         animator.SetFloat("Direction", Mathf.Clamp(Mathf.MoveTowards(animator.GetFloat("Direction"), -Mathf.Sign(Vector3.Cross(MoveDirection, HorzVel.normalized).y) * (1f - Vector3.Dot(MoveDirection, HorzVel.normalized)), Time.deltaTime), -0.1f, .1f));
@@ -325,6 +320,14 @@ public class ShadowController : MonoBehaviour {
                         GravitayionalPull();
                         break;
                     case Action.HomingAttack:
+                        HorzVel = (HomingTarget.position - transform.position).normalized * 45f;
+                        VertVel = Vector3.zero;
+                        if (Vector3.Distance(transform.position, HomingTarget.position) < .5f)
+                        {
+                            action = Action.None;
+                            HorzVel = Vector3.zero;
+                            VertVel = -Gravity.normalized * 10;
+                        }
                         break;
                     case Action.ChaosSnap:
                         break;
@@ -367,6 +370,9 @@ public class ShadowController : MonoBehaviour {
                 if (LockTimer < 0)
                     ChangePlayStle(BeforeConstrained);
                 break;
+            case PlayState.Autorun:
+                
+                break;
 		}
         Rotate();
         ApplyVelocity();
@@ -399,13 +405,22 @@ public class ShadowController : MonoBehaviour {
 
     private void UseChaosSpear()
     {
-        if (spearPressed)
+        if (!spearPressed)
+            return;
+
+        if (npc ==  null)
         {
             canSpear = false;
             animator.SetTrigger("SpearUse");
             BallActivate(false);
             ShadowsMouth.PlayOneShot(SonicInterClips[2]);
             StartCoroutine(ChaosSpearCooldown());
+        }
+        else
+        {
+            npc.OnInteract.Invoke();
+            ChangePlayStle(PlayState.Speaking);
+            npc.OnInteract.AddListener(StopTalking);
         }
     }
 
@@ -527,6 +542,7 @@ public class ShadowController : MonoBehaviour {
         if (canJump && !jump && jumpPressed)
         {
             action = Action.None;
+
             jumpNomral = GroundNormal;
 			boostPressed = false;
             jump = true;
@@ -647,10 +663,11 @@ public class ShadowController : MonoBehaviour {
                     VertVel = collider.transform.up * sonInter.Power;
                     break;
                 case 2:
-                    keepGravity = true;
+                    keepGravity = !sonInter.isSpecial;
                     transform.position = collider.transform.position;
                     LockTimer = sonInter.LockTime;
-                    VertVel = collider.transform.up * sonInter.Power;
+                    HorzVel = Vector3.zero;
+                    VertVel = collider.transform.forward * sonInter.Power;
                     break;
                 case 3:
                     switch (collider.transform.GetChild(0).name)
@@ -692,6 +709,12 @@ public class ShadowController : MonoBehaviour {
                     VertVel = Vector3.zero;
                     action = Action.None;
                     break;
+                case 7:
+                    transform.parent = collider.transform;
+                    LockTimer = float.MaxValue;
+                    HorzVel = Vector3.zero;
+                    VertVel = Vector3.zero;
+                    break;
             }
             ApplyVelocity();
         }
@@ -702,7 +725,7 @@ public class ShadowController : MonoBehaviour {
         else if (collider.CompareTag("Finish"))
         {
             gameManager.StopTimer();
-            ChangePlayStle(PlayState.LockedInPlace);
+            ChangePlayStle(PlayState.Speaking);
             GameObject.Find("TopCanvas").transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = "Your time is " + gameManager.SecondsPassed + " seconds. Press Start to try again";
         }
         else if (collider.CompareTag("Section"))
@@ -725,6 +748,18 @@ public class ShadowController : MonoBehaviour {
             }
 
             ProcessHit();
+        }
+        else if (collider.CompareTag("NPC"))
+        {
+            npc = collider.GetComponent<NPC>();
+        }
+    }
+
+    private IEnumerator UpReel(Transform reel)
+    {
+        while (reel.localPosition.y < 0)
+        {
+            yield return new WaitForEndOfFrame();
         }
     }
 
@@ -784,6 +819,8 @@ public class ShadowController : MonoBehaviour {
                 Gravity = Vector3.down * 0.5f;
                 GravityPlatform = null;
             }
+        else if (collider.CompareTag("NPC") && collider.transform == npc.transform)
+            npc = null;
     }
 
     public void RailLogic()

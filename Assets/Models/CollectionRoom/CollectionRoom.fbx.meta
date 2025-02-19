@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: b805aa0272114e149a9d825196494c6b
+timeCreated: 1739993486
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: INST("w09a10_collection_chandelier", visual)
+    100004: INST("w09a10_collection_character", visual)
+    100006: INST("w09a10_collection_decoration", visual)
+    100008: INST("w09a10_collection_flicky", visual)
+    100010: INST("w09a10_collection_floor", visual)
+    100012: INST("w09a10_collection_history", visual)
+    100014: INST("w09a10_collection_illust", visual)
+    100016: INST("w09a10_collection_memo", visual)
+    100018: INST("w09a10_collection_scene_replay", visual)
+    100020: INST("w09a10_collection_sound", visual)
+    100022: INST("w09a10_collection_wall", visual)
+    100024: INST("w09a10_collection_wall02", visual)
+    400000: //RootNode
+    400002: INST("w09a10_collection_chandelier", visual)
+    400004: INST("w09a10_collection_character", visual)
+    400006: INST("w09a10_collection_decoration", visual)
+    400008: INST("w09a10_collection_flicky", visual)
+    400010: INST("w09a10_collection_floor", visual)
+    400012: INST("w09a10_collection_history", visual)
+    400014: INST("w09a10_collection_illust", visual)
+    400016: INST("w09a10_collection_memo", visual)
+    400018: INST("w09a10_collection_scene_replay", visual)
+    400020: INST("w09a10_collection_sound", visual)
+    400022: INST("w09a10_collection_wall", visual)
+    400024: INST("w09a10_collection_wall02", visual)
+    2300000: INST("w09a10_collection_chandelier", visual)
+    2300002: INST("w09a10_collection_character", visual)
+    2300004: INST("w09a10_collection_decoration", visual)
+    2300006: INST("w09a10_collection_flicky", visual)
+    2300008: INST("w09a10_collection_floor", visual)
+    2300010: INST("w09a10_collection_history", visual)
+    2300012: INST("w09a10_collection_illust", visual)
+    2300014: INST("w09a10_collection_memo", visual)
+    2300016: INST("w09a10_collection_scene_replay", visual)
+    2300018: INST("w09a10_collection_sound", visual)
+    2300020: INST("w09a10_collection_wall", visual)
+    2300022: INST("w09a10_collection_wall02", visual)
+    3300000: INST("w09a10_collection_chandelier", visual)
+    3300002: INST("w09a10_collection_character", visual)
+    3300004: INST("w09a10_collection_decoration", visual)
+    3300006: INST("w09a10_collection_flicky", visual)
+    3300008: INST("w09a10_collection_floor", visual)
+    3300010: INST("w09a10_collection_history", visual)
+    3300012: INST("w09a10_collection_illust", visual)
+    3300014: INST("w09a10_collection_memo", visual)
+    3300016: INST("w09a10_collection_scene_replay", visual)
+    3300018: INST("w09a10_collection_sound", visual)
+    3300020: INST("w09a10_collection_wall", visual)
+    3300022: INST("w09a10_collection_wall02", visual)
+    4300000: INST("w09a10_collection_chandelier", visual)
+    4300002: INST("w09a10_collection_character", visual)
+    4300004: INST("w09a10_collection_decoration", visual)
+    4300006: INST("w09a10_collection_flicky", visual)
+    4300008: INST("w09a10_collection_floor", visual)
+    4300010: INST("w09a10_collection_history", visual)
+    4300012: INST("w09a10_collection_illust", visual)
+    4300014: INST("w09a10_collection_memo", visual)
+    4300016: INST("w09a10_collection_scene_replay", visual)
+    4300018: INST("w09a10_collection_sound", visual)
+    4300020: INST("w09a10_collection_wall", visual)
+    4300022: INST("w09a10_collection_wall02", visual)
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
