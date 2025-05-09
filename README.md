@@ -1,0 +1,1 @@
+You'll need a special Unity 3DS version [from here](https://archive.org/details/unity-for-3-ds) to actually build the game and try it out. Feel free to make a fork if you wish to continue on the project.
